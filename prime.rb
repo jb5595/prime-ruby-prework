@@ -9,6 +9,9 @@ def prime?(number)
   i = 5
   while i * i <= number
     if number % i == || n % (i + 2) == 0 
-      return flase
-      i
+      return false
+    end 
+    i += 6
+  end 
+  return true
 end
